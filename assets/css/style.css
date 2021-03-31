@@ -69,6 +69,60 @@
         border: 1px solid #1FC157;
         transition: 0.4s;
     }
+    /*  Sticky Header Area
+    /*--------------------------------*/
+    .header-area.stick {
+        left: 0;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 999999;
+        box-shadow: 0px 0px 3px #ddd, -2px -2px 3px #ddd;
+        background: #fff;
+    }
+    .header-area.stick .logo a {
+        display: inline-block;
+        height: auto;
+        padding: 17px 0;
+    }
+    .header-area.stick .main-menu ul.navbar-nav li a {
+        padding: 30px 18px;
+        color: #666;
+    }
+    .header-area.stick .main-menu ul.nav li ul.sub-menu li a {
+        color: #666;
+        display: block;
+        padding: 5px 15px;
+    }
+    .header-area.stick .main-menu ul.nav > li> a::after {
+        color: #666;
+        top:32px;
+    }
+    .header-area.stick .main-menu ul.nav li ul.sub-menu li a:hover{
+        color: #F3B007;
+    }
+    .header-area.stick .logo a.white-logo {
+        display: none;
+    }
+    .header-area.stick .logo a.black-logo {
+        display: block;
+    }
+    .header-area.stick .s-menu {
+        border: 1px solid #F3B007;
+        background: #F3B007;
+        color: #fff;
+        transition: 0.4s;
+    }
+    .header-area.stick .s-menu:hover{
+        border: 1px solid #F3B007;
+        background: #fff;
+        color: #F3B007;
+        transition: 0.4s;
+    }
+    .header-area.stick .header-center {
+        padding: 0px;
+    }
+    /*----------------------------------------*/
 
     .navbar {
         padding: 20px 0;

@@ -6,7 +6,7 @@
         display: inline-block;
     }
     .topbar-area {
-        background: rgba(148,147,152, 1.0) none repeat scroll 0 0;
+        background: rgba(4,23,46, 0.7) none repeat scroll 0 0;
     }
     .topbar-left ul li a {
         color: #ddd;
@@ -19,7 +19,7 @@
     }
     .topbar-left ul li a i {
         color: #f5df4e;
-        font-size: 16px;
+        font-size: 24px;
         padding-right: 7px;
     }
     .topbar-right {

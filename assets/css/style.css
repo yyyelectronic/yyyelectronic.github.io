@@ -27,48 +27,48 @@
         display: block;
         float: right;
     }
-    /*.top-social {*/
-        /*float: left;*/
-        /*padding: 11px 0px;*/
-        /*margin-left: 10px;*/
-    /*}*/
-    /*.top-social ul li{*/
-        /*display: inline-block;*/
-    /*}*/
-    /*.top-social ul li a {*/
-        /*color: #ddd;*/
-        /*margin-right: 5px;*/
-        /*display: block;*/
-        /*text-align: center;*/
-        /*font-size: 15px;*/
-        /*width: 26px;*/
-        /*height: 26px;*/
-        /*border-radius: 5px;*/
-        /*line-height: 26px;*/
-    /*}*/
-    /*.top-social ul li a:hover{*/
-        /*color:#fff;*/
-        /*background: #F3B007;*/
-    /*}*/
-    /*.quote-button {*/
-        /*float: left;*/
-    /*}*/
-    /*.quote-button .quote-btn {*/
-        /*font-size: 16px;*/
-        /*font-weight: 600;*/
-        /*color: #fff;*/
-        /*background: #F3B007;*/
-        /*display: inline-block;*/
-        /*border: 1px solid #F3B007;*/
-        /*padding: 11px 20px;*/
-        /*margin: 0px;*/
-        /*transition: 0.4s;*/
-    /*}*/
-    /*.quote-button .quote-btn:hover {*/
-        /*background: #1FC157;*/
-        /*border: 1px solid #1FC157;*/
-        /*transition: 0.4s;*/
-    /*}*/
+    .top-social {
+        float: left;
+        padding: 11px 0px;
+        margin-left: 10px;
+    }
+    .top-social ul li{
+        display: inline-block;
+    }
+    .top-social ul li a {
+        color: #ddd;
+        margin-right: 5px;
+        display: block;
+        text-align: center;
+        font-size: 15px;
+        width: 26px;
+        height: 26px;
+        border-radius: 5px;
+        line-height: 26px;
+    }
+    .top-social ul li a:hover{
+        color:#fff;
+        background: #F3B007;
+    }
+    .quote-button {
+        float: left;
+    }
+    .quote-button .quote-btn {
+        font-size: 16px;
+        font-weight: 600;
+        color: #fff;
+        background: #F3B007;
+        display: inline-block;
+        border: 1px solid #F3B007;
+        padding: 11px 20px;
+        margin: 0px;
+        transition: 0.4s;
+    }
+    .quote-button .quote-btn:hover {
+        background: #1FC157;
+        border: 1px solid #1FC157;
+        transition: 0.4s;
+    }
 
     .navbar {
         padding: 20px 0;
